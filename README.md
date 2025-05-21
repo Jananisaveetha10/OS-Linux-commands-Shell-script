@@ -42,23 +42,33 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![Screenshot 2025-05-21 152910](https://github.com/user-attachments/assets/0da9f6a3-c1a0-4246-ac91-b826379caa64)
+
 
 
 
 cat < file2
 ## OUTPUT
+![Screenshot 2025-05-21 153117](https://github.com/user-attachments/assets/a7720152-2af0-497f-b692-1e30ddbcb5e6)
+
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![Screenshot 2025-05-21 153243](https://github.com/user-attachments/assets/8101e3f5-e4ed-4c26-8f10-4a9c7f514ca7)
+
  
 comm file1 file2
  ## OUTPUT
+ ![Screenshot 2025-05-21 153444](https://github.com/user-attachments/assets/a54982bb-ba54-4385-85a9-4e425dd43a28)
+
 
  
 diff file1 file2
 ## OUTPUT
+![Screenshot 2025-05-21 153524](https://github.com/user-attachments/assets/311efb66-2b73-412e-8acc-16efc38263c7)
+
 
 
 #Filters
@@ -66,22 +76,24 @@ diff file1 file2
 ### Create the following files file11, file22 as follows:
 
 cat > file11
-```
 Hello world
 This is my world
 ^d
-```
+
+
 cat > file22
-```
+
 1001 | Ram | 10000 | HR
 1002 | tom |  5000 | Admin
 1003 | Joe |  7000 | Developer
 ^d
-```
+
 
 
 cut -c1-3 file11
 ## OUTPUT
+![Screenshot 2025-05-21 153723](https://github.com/user-attachments/assets/c2af6cc5-4d20-4186-90e7-8dd3c5eeda2c)
+
 
 
 
